@@ -1755,6 +1755,10 @@ class Client extends EventEmitter {
             return false;
         }, chatId);
     }
+    // 添加 getPage 方法  
+    getPage() {  
+        return this.pupPage;  
+    }
 }
 
 module.exports = Client;
